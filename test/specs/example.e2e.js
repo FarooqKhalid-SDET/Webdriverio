@@ -14,7 +14,7 @@ describe('My Login application', () => {
     it('Should logout & verify logout alert message', () => {
 
         SecurePage.btnLogout.click();
-        expect(SecurePage.flashAlert).toHaveTextContaining("You logged out of the secure area!");
+        expect(SecurePage.flashAlert).toHaveTextContaining("You logged out of the secure area!" );
     })
 });
 
